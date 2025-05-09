@@ -1,0 +1,38 @@
+2025-05-08 18:11:41 | INFO     | Predictor already at ../inputs/utils/shape_predictor_68_face_landmarks.dat
+2025-05-08 18:11:41 | INFO     | Training focused XGBoost model on top features
+2025-05-08 18:11:43 | INFO     | Validation accuracy: 0.5976
+2025-05-08 18:11:43 | INFO     | Best thresh: 0.50 (F1=0.5541)
+2025-05-08 18:11:43 | INFO     | Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.75      0.81       159
+           1       0.67      0.81      0.73        98
+
+    accuracy                           0.77       257
+   macro avg       0.77      0.78      0.77       257
+weighted avg       0.79      0.77      0.78       257
+
+2025-05-08 18:11:43 | INFO     | Confusion Matrix:
+[[120  39]
+ [ 19  79]]
+2025-05-08 18:11:43 | SUCCESS  | Focused XGBoost model saved successfully
+2025-05-08 18:11:43 | INFO     | Setting up stacking ensemble: XGB, LGBM, RF → LR
+2025-05-08 18:11:46 | INFO     | Stacking validation accuracy: 0.5854
+2025-05-08 18:11:46 | INFO     | Stacking best threshold: 0.50 (F1=0.5342)
+2025-05-08 18:11:46 | INFO     | Stacking Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.77      0.81       159
+           1       0.68      0.79      0.73        98
+
+    accuracy                           0.77       257
+   macro avg       0.76      0.78      0.77       257
+weighted avg       0.79      0.77      0.78       257
+
+2025-05-08 18:11:46 | INFO     | Stacking Confusion Matrix:
+[[122  37]
+ [ 21  77]]
+2025-05-08 18:11:46 | SUCCESS  | Stacking ensemble saved successfully
+2025-05-08 18:11:46 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 18:11:46 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 18:11:46 | INFO     | Extracting feature importances for RandomForest

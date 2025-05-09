@@ -1,0 +1,30 @@
+2025-05-08 18:51:03 | SUCCESS  | Split Complete
+2025-05-08 18:51:03 | INFO     | Train IDs: 19, Val IDs: 4, Test IDs: 5
+2025-05-08 18:51:03 | INFO     | Train samples: 2000
+2025-05-08 18:51:03 | INFO     | Val samples: 712
+2025-05-08 18:51:03 | INFO     | Test samples: 965
+2025-05-08 18:51:04 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:51:04 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:51:05 | INFO     | Val batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:51:05 | INFO     | Test batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:54:35 | INFO     | Train samples: 2000
+2025-05-08 18:54:35 | INFO     | Val samples: 712
+2025-05-08 18:54:35 | INFO     | Test samples: 965
+2025-05-08 18:54:36 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:54:36 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:54:37 | INFO     | Val batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:54:37 | INFO     | Test batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:56:25 | INFO     | Train samples: 2000
+2025-05-08 18:56:25 | INFO     | Val samples: 712
+2025-05-08 18:56:25 | INFO     | Test samples: 965
+2025-05-08 18:56:26 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:56:26 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:56:27 | INFO     | Val batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:56:27 | INFO     | Test batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:01:09 | INFO     | Train samples: 2000
+2025-05-08 19:01:09 | INFO     | Val samples: 712
+2025-05-08 19:01:09 | INFO     | Test samples: 965
+2025-05-08 19:01:10 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:01:11 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:01:11 | INFO     | Val batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:01:12 | INFO     | Test batch shape: torch.Size([32, 3, 56, 224])

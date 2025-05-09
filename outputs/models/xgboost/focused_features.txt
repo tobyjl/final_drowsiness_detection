@@ -1,0 +1,8 @@
+right_ear
+avg_ear
+mar
+emr
+head_yaw
+head_pitch
+left_ear
+ear_diff

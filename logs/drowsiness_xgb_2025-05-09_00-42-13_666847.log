@@ -1,0 +1,94 @@
+2025-05-09 00:42:15 | INFO     | Cleared existing output directory: ../inputs/datasets/processed
+2025-05-09 00:42:33 | SUCCESS  | Split Complete
+2025-05-09 00:42:33 | INFO     | Unique IDs in 'train': ['A', 'D', 'E', 'F', 'G', 'I', 'J', 'M', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'X', 'Y', 'ZB', 'ZC']
+2025-05-09 00:42:33 | INFO     | Unique IDs in 'validation': ['B', 'C', 'H', 'N']
+2025-05-09 00:42:33 | INFO     | Unique IDs in 'test': ['K', 'L', 'V', 'W', 'ZA']
+2025-05-09 00:42:33 | INFO     | Train samples: 29876
+2025-05-09 00:42:33 | INFO     | Val samples: 4651
+2025-05-09 00:42:33 | INFO     | Test samples: 7266
+2025-05-09 00:42:33 | INFO     | Train batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 00:42:33 | INFO     | Train batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 00:42:33 | INFO     | Val batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 00:42:33 | INFO     | Test batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 00:42:33 | INFO     | Using device: cpu
+2025-05-09 00:46:59 | INFO     | Epoch 1/100
+2025-05-09 00:46:59 | INFO     | Train Loss: 0.7669, Val Loss: 1.1369
+2025-05-09 00:46:59 | INFO     | Train Acc: 0.8058, Val Acc: 0.5758
+2025-05-09 00:46:59 | SUCCESS  | Best model saved.
+2025-05-09 00:51:18 | INFO     | Epoch 2/100
+2025-05-09 00:51:18 | INFO     | Train Loss: 0.3483, Val Loss: 1.0641
+2025-05-09 00:51:18 | INFO     | Train Acc: 0.9300, Val Acc: 0.6078
+2025-05-09 00:51:18 | SUCCESS  | Best model saved.
+2025-05-09 00:55:48 | INFO     | Epoch 3/100
+2025-05-09 00:55:48 | INFO     | Train Loss: 0.2947, Val Loss: 0.9917
+2025-05-09 00:55:48 | INFO     | Train Acc: 0.9616, Val Acc: 0.5928
+2025-05-09 00:55:48 | SUCCESS  | Best model saved.
+2025-05-09 01:00:33 | INFO     | Epoch 4/100
+2025-05-09 01:00:33 | INFO     | Train Loss: 0.2650, Val Loss: 1.0101
+2025-05-09 01:00:33 | INFO     | Train Acc: 0.9801, Val Acc: 0.5285
+2025-05-09 01:03:36 | SUCCESS  | Final model saved to ../outputs/models/deep_ml/TJM3_FINAL_20250509_010336.pt
+2025-05-09 01:03:38 | SUCCESS  | Training history saved to ../outputs/utils/deep_ml/training_history_csv_files/training_history_20250509_010336.csv
+2025-05-09 01:05:05 | INFO     | Initializing pretrained ResNet18 model.....
+2025-05-09 01:05:05 | INFO     | Preparing transforms with normalization...
+2025-05-09 01:05:05 | INFO     | Loading datasets for ResNet pipeline...
+2025-05-09 01:05:05 | SUCCESS  | Loaded train/val/test datasets (Train: 29876, Val: 4651, Test: 7266)
+2025-05-09 01:05:05 | INFO     | Setting up model, loss function, optimiser, and scheduler...
+2025-05-09 01:05:05 | INFO     | ResNet backbone frozen.
+2025-05-09 01:05:05 | SUCCESS  | ResNet18 initialised with custom classifier.
+2025-05-09 01:05:05 | INFO     | Experiment timestamp: 20250509_010505
+2025-05-09 01:05:05 | INFO     | Starting training with pretrained ResNet18...
+2025-05-09 01:16:41 | INFO     | Epoch 1/50
+2025-05-09 01:16:41 | INFO     | Train Loss: 0.5164, Val Loss: 1.1048
+2025-05-09 01:16:41 | INFO     | Train Acc: 0.7348, Val Acc: 0.4455
+2025-05-09 01:16:41 | SUCCESS  | Best model saved.
+2025-05-09 01:28:39 | INFO     | Epoch 2/50
+2025-05-09 01:28:39 | INFO     | Train Loss: 0.4737, Val Loss: 0.9173
+2025-05-09 01:28:39 | INFO     | Train Acc: 0.7700, Val Acc: 0.4661
+2025-05-09 01:28:39 | SUCCESS  | Best model saved.
+2025-05-09 01:40:31 | INFO     | Epoch 3/50
+2025-05-09 01:40:31 | INFO     | Train Loss: 0.4755, Val Loss: 0.9106
+2025-05-09 01:40:31 | INFO     | Train Acc: 0.7673, Val Acc: 0.4614
+2025-05-09 01:40:31 | SUCCESS  | Best model saved.
+2025-05-09 01:52:20 | INFO     | Epoch 4/50
+2025-05-09 01:52:20 | INFO     | Train Loss: 0.4750, Val Loss: 0.9116
+2025-05-09 01:52:20 | INFO     | Train Acc: 0.7669, Val Acc: 0.4580
+2025-05-09 02:04:10 | INFO     | Epoch 5/50
+2025-05-09 02:04:10 | INFO     | Train Loss: 0.4771, Val Loss: 0.9766
+2025-05-09 02:04:10 | INFO     | Train Acc: 0.7687, Val Acc: 0.4425
+2025-05-09 02:16:19 | INFO     | Epoch 6/50
+2025-05-09 02:16:19 | INFO     | Train Loss: 0.4703, Val Loss: 0.9166
+2025-05-09 02:16:19 | INFO     | Train Acc: 0.7728, Val Acc: 0.4515
+2025-05-09 02:28:26 | INFO     | Epoch 7/50
+2025-05-09 02:28:26 | INFO     | Train Loss: 0.4732, Val Loss: 0.9870
+2025-05-09 02:28:26 | INFO     | Train Acc: 0.7679, Val Acc: 0.4360
+2025-05-09 02:40:50 | INFO     | Epoch 8/50
+2025-05-09 02:40:50 | INFO     | Train Loss: 0.4742, Val Loss: 1.0366
+2025-05-09 02:40:50 | INFO     | Train Acc: 0.7697, Val Acc: 0.4223
+2025-05-09 02:53:19 | INFO     | Epoch 9/50
+2025-05-09 02:53:19 | INFO     | Train Loss: 0.4733, Val Loss: 1.1638
+2025-05-09 02:53:19 | INFO     | Train Acc: 0.7691, Val Acc: 0.4375
+2025-05-09 03:05:52 | INFO     | Epoch 10/50
+2025-05-09 03:05:52 | INFO     | Train Loss: 0.4581, Val Loss: 0.9978
+2025-05-09 03:05:52 | INFO     | Train Acc: 0.7765, Val Acc: 0.4535
+2025-05-09 03:16:57 | INFO     | Epoch 11/50
+2025-05-09 03:16:57 | INFO     | Train Loss: 0.4596, Val Loss: 0.9960
+2025-05-09 03:16:57 | INFO     | Train Acc: 0.7778, Val Acc: 0.4500
+2025-05-09 03:28:46 | INFO     | Epoch 12/50
+2025-05-09 03:28:46 | INFO     | Train Loss: 0.4586, Val Loss: 0.9150
+2025-05-09 03:28:46 | INFO     | Train Acc: 0.7778, Val Acc: 0.4640
+2025-05-09 03:36:46 | INFO     | Initializing pretrained ResNet18 model.....
+2025-05-09 03:36:46 | INFO     | Preparing transforms with normalization...
+2025-05-09 03:36:46 | INFO     | Loading datasets for ResNet pipeline...
+2025-05-09 03:36:46 | SUCCESS  | Loaded train/val/test datasets (Train: 29876, Val: 4651, Test: 7266)
+2025-05-09 03:36:46 | INFO     | Setting up model, loss function, optimiser, and scheduler...
+2025-05-09 03:36:46 | SUCCESS  | ResNet18 initialised with custom classifier.
+2025-05-09 03:36:46 | INFO     | Experiment timestamp: 20250509_033646
+2025-05-09 03:36:46 | INFO     | Starting training with pretrained ResNet18...
+2025-05-09 03:51:56 | INFO     | Epoch 1/50
+2025-05-09 03:51:56 | INFO     | Train Loss: 0.3007, Val Loss: 0.8124
+2025-05-09 03:51:56 | INFO     | Train Acc: 0.9416, Val Acc: 0.4992
+2025-05-09 03:51:56 | SUCCESS  | Best model saved.
+2025-05-09 04:06:58 | INFO     | Epoch 2/50
+2025-05-09 04:06:58 | INFO     | Train Loss: 0.2587, Val Loss: 0.7095
+2025-05-09 04:06:58 | INFO     | Train Acc: 0.9711, Val Acc: 0.5313
+2025-05-09 04:06:58 | SUCCESS  | Best model saved.

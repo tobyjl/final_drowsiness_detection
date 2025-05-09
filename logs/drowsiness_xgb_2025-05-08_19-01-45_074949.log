@@ -1,0 +1,27 @@
+2025-05-08 19:01:45 | SUCCESS  | Split Complete
+2025-05-08 19:01:45 | INFO     | Train IDs: 19, Val IDs: 4, Test IDs: 5
+2025-05-08 19:01:45 | INFO     | Train samples: 2000
+2025-05-08 19:01:45 | INFO     | Val samples: 914
+2025-05-08 19:01:45 | INFO     | Test samples: 1068
+2025-05-08 19:01:46 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:01:47 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:01:47 | INFO     | Val batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:01:48 | INFO     | Test batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:04:22 | INFO     | Train samples: 2000
+2025-05-08 19:04:22 | INFO     | Val samples: 914
+2025-05-08 19:04:22 | INFO     | Test samples: 1068
+2025-05-08 19:04:23 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:04:46 | INFO     | Train samples: 2000
+2025-05-08 19:04:46 | INFO     | Val samples: 914
+2025-05-08 19:04:46 | INFO     | Test samples: 1068
+2025-05-08 19:04:46 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:04:47 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:04:47 | INFO     | Val batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:04:48 | INFO     | Test batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:07:01 | INFO     | Train samples: 2000
+2025-05-08 19:07:01 | INFO     | Val samples: 914
+2025-05-08 19:07:01 | INFO     | Test samples: 1068
+2025-05-08 19:07:02 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:07:03 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:07:03 | INFO     | Val batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:07:04 | INFO     | Test batch shape: torch.Size([32, 3, 56, 224])

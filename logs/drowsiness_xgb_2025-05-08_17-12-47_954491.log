@@ -1,0 +1,59 @@
+2025-05-08 17:12:48 | SUCCESS  | Split Complete
+2025-05-08 17:12:48 | INFO     | Train IDs: 19, Val IDs: 4, Test IDs: 5
+2025-05-08 17:12:48 | INFO     | Train samples: 1309
+2025-05-08 17:12:48 | INFO     | Val samples: 340
+2025-05-08 17:12:48 | INFO     | Test samples: 351
+2025-05-08 17:12:49 | INFO     | Train batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 17:12:49 | INFO     | Train batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 17:12:49 | INFO     | Val batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 17:12:49 | INFO     | Test batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 17:12:49 | INFO     | Using device: cpu
+2025-05-08 17:15:41 | INFO     | Epoch 1/50
+2025-05-08 17:15:41 | INFO     | Train Loss: 2.7001, Val Loss: 0.8327
+2025-05-08 17:15:41 | INFO     | Train Acc: 0.5325, Val Acc: 0.5765
+2025-05-08 17:15:41 | SUCCESS  | Best model saved.
+2025-05-08 17:15:45 | INFO     | Epoch 2/50
+2025-05-08 17:15:45 | INFO     | Train Loss: 2.2304, Val Loss: 0.8402
+2025-05-08 17:15:45 | INFO     | Train Acc: 0.5531, Val Acc: 0.6353
+2025-05-08 17:15:49 | INFO     | Epoch 3/50
+2025-05-08 17:15:49 | INFO     | Train Loss: 1.6591, Val Loss: 0.7702
+2025-05-08 17:15:49 | INFO     | Train Acc: 0.6096, Val Acc: 0.5059
+2025-05-08 17:15:49 | SUCCESS  | Best model saved.
+2025-05-08 17:15:54 | INFO     | Epoch 4/50
+2025-05-08 17:15:54 | INFO     | Train Loss: 1.4491, Val Loss: 0.8051
+2025-05-08 17:15:54 | INFO     | Train Acc: 0.6134, Val Acc: 0.4676
+2025-05-08 17:15:59 | INFO     | Epoch 5/50
+2025-05-08 17:15:59 | INFO     | Train Loss: 1.2879, Val Loss: 0.6638
+2025-05-08 17:15:59 | INFO     | Train Acc: 0.6364, Val Acc: 0.5912
+2025-05-08 17:15:59 | SUCCESS  | Best model saved.
+2025-05-08 17:16:03 | INFO     | Epoch 6/50
+2025-05-08 17:16:03 | INFO     | Train Loss: 1.3011, Val Loss: 0.8068
+2025-05-08 17:16:03 | INFO     | Train Acc: 0.6455, Val Acc: 0.3824
+2025-05-08 17:16:08 | INFO     | Epoch 7/50
+2025-05-08 17:16:08 | INFO     | Train Loss: 1.1527, Val Loss: 0.8187
+2025-05-08 17:16:08 | INFO     | Train Acc: 0.6562, Val Acc: 0.4853
+2025-05-08 17:16:12 | INFO     | Epoch 8/50
+2025-05-08 17:16:12 | INFO     | Train Loss: 1.0159, Val Loss: 0.7999
+2025-05-08 17:16:12 | INFO     | Train Acc: 0.6494, Val Acc: 0.4765
+2025-05-08 17:16:16 | INFO     | Epoch 9/50
+2025-05-08 17:16:16 | INFO     | Train Loss: 0.8866, Val Loss: 0.7927
+2025-05-08 17:16:16 | INFO     | Train Acc: 0.6875, Val Acc: 0.5471
+2025-05-08 17:16:21 | INFO     | Epoch 10/50
+2025-05-08 17:16:21 | INFO     | Train Loss: 0.7491, Val Loss: 0.9122
+2025-05-08 17:16:21 | INFO     | Train Acc: 0.7021, Val Acc: 0.4088
+2025-05-08 17:16:25 | INFO     | Epoch 11/50
+2025-05-08 17:16:25 | INFO     | Train Loss: 0.8020, Val Loss: 0.9065
+2025-05-08 17:16:25 | INFO     | Train Acc: 0.7082, Val Acc: 0.2941
+2025-05-08 17:16:29 | INFO     | Epoch 12/50
+2025-05-08 17:16:29 | INFO     | Train Loss: 0.7156, Val Loss: 0.9439
+2025-05-08 17:16:29 | INFO     | Train Acc: 0.7235, Val Acc: 0.3235
+2025-05-08 17:16:33 | INFO     | Epoch 13/50
+2025-05-08 17:16:33 | INFO     | Train Loss: 0.7910, Val Loss: 0.9178
+2025-05-08 17:16:33 | INFO     | Train Acc: 0.6868, Val Acc: 0.4000
+2025-05-08 17:16:38 | INFO     | Epoch 14/50
+2025-05-08 17:16:38 | INFO     | Train Loss: 0.6362, Val Loss: 0.9198
+2025-05-08 17:16:38 | INFO     | Train Acc: 0.7448, Val Acc: 0.3529
+2025-05-08 17:16:42 | INFO     | Epoch 15/50
+2025-05-08 17:16:42 | INFO     | Train Loss: 0.6075, Val Loss: 0.8940
+2025-05-08 17:16:42 | INFO     | Train Acc: 0.7471, Val Acc: 0.3735
+2025-05-08 17:16:42 | WARNING  | Early stopping triggered.

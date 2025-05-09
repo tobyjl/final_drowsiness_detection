@@ -1,0 +1,27 @@
+2025-05-09 08:27:14 | INFO     | Cleared existing output directory: ../inputs/datasets/processed
+2025-05-09 08:27:32 | SUCCESS  | Split Complete
+2025-05-09 08:27:32 | INFO     | Unique IDs in 'train': ['A', 'B', 'C', 'D', 'E', 'G', 'H', 'I', 'J', 'L', 'N', 'P', 'Q', 'T', 'U', 'W', 'Y', 'ZA', 'ZB']
+2025-05-09 08:27:32 | INFO     | Unique IDs in 'validation': ['K', 'V', 'X', 'ZC']
+2025-05-09 08:27:32 | INFO     | Unique IDs in 'test': ['F', 'M', 'O', 'R', 'S']
+2025-05-09 08:27:32 | INFO     | Train samples: 28341
+2025-05-09 08:27:32 | INFO     | Val samples: 8349
+2025-05-09 08:27:32 | INFO     | Test samples: 5103
+2025-05-09 08:27:32 | INFO     | Train batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 08:27:32 | INFO     | Train batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 08:27:32 | INFO     | Val batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 08:27:32 | INFO     | Test batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 08:27:32 | INFO     | Using device: cpu
+2025-05-09 08:27:48 | INFO     | Using device: cpu
+2025-05-09 08:27:59 | INFO     | Using device: cpu
+2025-05-09 08:31:58 | INFO     | Epoch 1/100
+2025-05-09 08:31:58 | INFO     | Train Loss: 0.5899, Val Loss: 1.4647
+2025-05-09 08:31:58 | INFO     | Train Acc: 0.8612, Val Acc: 0.4720
+2025-05-09 08:31:58 | SUCCESS  | Best model saved.
+2025-05-09 08:35:47 | INFO     | Epoch 2/100
+2025-05-09 08:35:47 | INFO     | Train Loss: 0.2886, Val Loss: 1.2243
+2025-05-09 08:35:47 | INFO     | Train Acc: 0.9647, Val Acc: 0.4411
+2025-05-09 08:35:47 | SUCCESS  | Best model saved.
+2025-05-09 08:39:32 | INFO     | Epoch 3/100
+2025-05-09 08:39:32 | INFO     | Train Loss: 0.2610, Val Loss: 1.1663
+2025-05-09 08:39:32 | INFO     | Train Acc: 0.9818, Val Acc: 0.4832
+2025-05-09 08:39:32 | SUCCESS  | Best model saved.

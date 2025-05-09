@@ -1,0 +1,13 @@
+2025-05-09 00:38:39 | INFO     | Cleared existing output directory: ../inputs/datasets/processed
+2025-05-09 00:38:57 | SUCCESS  | Split Complete
+2025-05-09 00:38:58 | INFO     | Unique IDs in 'train': ['A', 'C', 'D', 'E', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'R', 'S', 'V', 'X', 'ZA', 'ZB', 'ZC']
+2025-05-09 00:38:58 | INFO     | Unique IDs in 'validation': ['B', 'F', 'T', 'W']
+2025-05-09 00:38:58 | INFO     | Unique IDs in 'test': ['J', 'P', 'Q', 'U', 'Y']
+2025-05-09 00:38:58 | INFO     | Train samples: 31097
+2025-05-09 00:38:58 | INFO     | Val samples: 3727
+2025-05-09 00:38:58 | INFO     | Test samples: 6969
+2025-05-09 00:38:58 | INFO     | Train batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 00:38:58 | INFO     | Train batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 00:38:58 | INFO     | Val batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 00:38:58 | INFO     | Test batch shape: torch.Size([32, 1, 224, 224])
+2025-05-09 00:38:58 | INFO     | Using device: cpu

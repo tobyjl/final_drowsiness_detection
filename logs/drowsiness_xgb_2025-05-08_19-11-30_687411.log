@@ -1,0 +1,97 @@
+2025-05-08 19:11:31 | SUCCESS  | Split Complete
+2025-05-08 19:11:31 | INFO     | Train IDs: 19, Val IDs: 4, Test IDs: 5
+2025-05-08 19:12:37 | INFO     | Train samples: 2000
+2025-05-08 19:12:37 | INFO     | Val samples: 1040
+2025-05-08 19:12:37 | INFO     | Test samples: 1250
+2025-05-08 19:12:37 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:12:38 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:12:38 | INFO     | Val batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:12:39 | INFO     | Test batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 19:15:48 | INFO     | Train samples: 2000
+2025-05-08 19:15:48 | INFO     | Val samples: 1040
+2025-05-08 19:15:48 | INFO     | Test samples: 1250
+2025-05-08 19:15:49 | INFO     | Train batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 19:15:50 | INFO     | Train batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 19:15:50 | INFO     | Val batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 19:15:51 | INFO     | Test batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 19:16:45 | INFO     | Epoch 1/50
+2025-05-08 19:16:45 | INFO     | Train Loss: 2.6332, Val Loss: 0.6684
+2025-05-08 19:16:45 | INFO     | Train Acc: 0.5070, Val Acc: 0.5596
+2025-05-08 19:16:45 | SUCCESS  | Best model saved.
+2025-05-08 19:17:40 | INFO     | Epoch 2/50
+2025-05-08 19:17:40 | INFO     | Train Loss: 1.9973, Val Loss: 0.6507
+2025-05-08 19:17:40 | INFO     | Train Acc: 0.5250, Val Acc: 0.6221
+2025-05-08 19:17:40 | SUCCESS  | Best model saved.
+2025-05-08 19:18:37 | INFO     | Epoch 3/50
+2025-05-08 19:18:37 | INFO     | Train Loss: 1.9230, Val Loss: 0.6457
+2025-05-08 19:18:37 | INFO     | Train Acc: 0.5270, Val Acc: 0.6538
+2025-05-08 19:18:37 | SUCCESS  | Best model saved.
+2025-05-08 19:19:33 | INFO     | Epoch 4/50
+2025-05-08 19:19:33 | INFO     | Train Loss: 1.6570, Val Loss: 0.6893
+2025-05-08 19:19:33 | INFO     | Train Acc: 0.5275, Val Acc: 0.4856
+2025-05-08 19:20:29 | INFO     | Epoch 5/50
+2025-05-08 19:20:29 | INFO     | Train Loss: 1.6487, Val Loss: 0.6976
+2025-05-08 19:20:29 | INFO     | Train Acc: 0.5335, Val Acc: 0.4837
+2025-05-08 19:21:25 | INFO     | Epoch 6/50
+2025-05-08 19:21:25 | INFO     | Train Loss: 1.5995, Val Loss: 0.6941
+2025-05-08 19:21:25 | INFO     | Train Acc: 0.5225, Val Acc: 0.4856
+2025-05-08 19:22:22 | INFO     | Epoch 7/50
+2025-05-08 19:22:22 | INFO     | Train Loss: 1.4491, Val Loss: 0.7093
+2025-05-08 19:22:22 | INFO     | Train Acc: 0.5415, Val Acc: 0.4827
+2025-05-08 19:23:16 | INFO     | Epoch 8/50
+2025-05-08 19:23:16 | INFO     | Train Loss: 1.4451, Val Loss: 0.6869
+2025-05-08 19:23:16 | INFO     | Train Acc: 0.5210, Val Acc: 0.5250
+2025-05-08 19:24:11 | INFO     | Epoch 9/50
+2025-05-08 19:24:11 | INFO     | Train Loss: 1.4271, Val Loss: 0.6871
+2025-05-08 19:24:11 | INFO     | Train Acc: 0.5380, Val Acc: 0.5115
+2025-05-08 19:25:05 | INFO     | Epoch 10/50
+2025-05-08 19:25:05 | INFO     | Train Loss: 1.4108, Val Loss: 0.6890
+2025-05-08 19:25:05 | INFO     | Train Acc: 0.5275, Val Acc: 0.5038
+2025-05-08 19:26:00 | INFO     | Epoch 11/50
+2025-05-08 19:26:00 | INFO     | Train Loss: 1.2543, Val Loss: 0.6768
+2025-05-08 19:26:00 | INFO     | Train Acc: 0.5425, Val Acc: 0.5683
+2025-05-08 19:26:58 | INFO     | Epoch 12/50
+2025-05-08 19:26:58 | INFO     | Train Loss: 1.2769, Val Loss: 0.6663
+2025-05-08 19:26:58 | INFO     | Train Acc: 0.5665, Val Acc: 0.5827
+2025-05-08 19:27:55 | INFO     | Epoch 13/50
+2025-05-08 19:27:55 | INFO     | Train Loss: 1.1149, Val Loss: 0.6601
+2025-05-08 19:27:55 | INFO     | Train Acc: 0.5460, Val Acc: 0.5875
+2025-05-08 19:27:55 | WARNING  | Early stopping triggered.
+2025-05-08 19:27:55 | SUCCESS  | Final model saved to ../outputs/models/deep_ml/TJM3_FINAL_20250508_192755.pt
+2025-05-08 19:27:55 | SUCCESS  | Training history saved to ../csvs/cnn_training/training_history_20250508_192755.csv
+2025-05-08 19:28:17 | INFO     | Test Accuracy: 0.5880
+2025-05-08 19:28:17 | INFO     | Test Precision: 0.9426
+2025-05-08 19:28:17 | INFO     | Test Recall: 0.1846
+2025-05-08 19:28:17 | INFO     | Test F1 Score: 0.3087
+2025-05-08 19:28:17 | INFO     | 
+Classification Report:
+2025-05-08 19:28:17 | INFO     | 
+              precision    recall  f1-score   support
+
+           0       0.55      0.99      0.71       627
+           1       0.94      0.18      0.31       623
+
+    accuracy                           0.59      1250
+   macro avg       0.75      0.59      0.51      1250
+weighted avg       0.75      0.59      0.51      1250
+
+2025-05-08 19:28:17 | INFO     | 
+Confusion Matrix:
+2025-05-08 19:28:17 | INFO     | 
+[[620   7]
+ [508 115]]
+2025-05-08 19:28:41 | INFO     | 
+Some individual test predictions:
+
+2025-05-08 19:28:41 | INFO     | U0177.png                      true=0 pred=0 prob=0.386
+2025-05-08 19:28:41 | INFO     | ZB0295.png                     true=0 pred=0 prob=0.392
+2025-05-08 19:28:41 | INFO     | j0641.png                      true=1 pred=0 prob=0.483
+2025-05-08 19:28:41 | INFO     | E0071.png                      true=0 pred=0 prob=0.447
+2025-05-08 19:28:41 | INFO     | E0725.png                      true=0 pred=0 prob=0.424
+2025-05-08 19:28:41 | INFO     | Training progress plot saved to ../outputs/utils/deep_ml/training_progress_20250508_192755.png
+2025-05-08 19:28:41 | INFO     | ROC AUC curve plot saved to ../outputs/utils/deep_ml/roc_auc_curve_20250508_192755.png
+2025-05-08 19:28:41 | INFO     | ROC AUC Score: 0.8023
+2025-05-08 19:28:42 | INFO     | Confusion matrix plot saved to ../outputs/utils/deep_ml/confusion_matrix_test_20250508_192755.png
+2025-05-08 19:28:42 | INFO     | Saving Grad-CAM images to: ../outputs/utils/deep_ml/grad_cam_20250508_192755
+2025-05-08 19:28:42 | INFO     | Saved: ../outputs/utils/deep_ml/grad_cam_20250508_192755/grad_cam_sample_0_B0155.png
+2025-05-08 19:28:42 | INFO     | Saved: ../outputs/utils/deep_ml/grad_cam_20250508_192755/grad_cam_sample_1_x1304.png

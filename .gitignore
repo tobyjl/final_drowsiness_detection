@@ -1,0 +1,4 @@
+inputs/datasets/
+outputs/visuals/
+venv/
+*.DS_Store

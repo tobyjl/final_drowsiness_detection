@@ -1,0 +1,62 @@
+2025-05-08 17:48:04 | INFO     | Predictor already at ../inputs/utils/shape_predictor_68_face_landmarks.dat
+2025-05-08 17:48:04 | INFO     | Training focused XGBoost model on top features
+2025-05-08 17:48:05 | INFO     | Validation accuracy: 0.5976
+2025-05-08 17:48:05 | INFO     | Best thresh: 0.50 (F1=0.5541)
+2025-05-08 17:48:05 | INFO     | Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.75      0.81       159
+           1       0.67      0.81      0.73        98
+
+    accuracy                           0.77       257
+   macro avg       0.77      0.78      0.77       257
+weighted avg       0.79      0.77      0.78       257
+
+2025-05-08 17:48:05 | INFO     | Confusion Matrix:
+[[120  39]
+ [ 19  79]]
+2025-05-08 17:48:05 | SUCCESS  | Focused XGBoost model saved successfully
+2025-05-08 17:48:05 | INFO     | Setting up stacking ensemble: XGB, LGBM, RF → LR
+2025-05-08 17:48:09 | INFO     | Stacking validation accuracy: 0.5762
+2025-05-08 17:48:09 | INFO     | Stacking best threshold: 0.50 (F1=0.5256)
+2025-05-08 17:48:09 | INFO     | Stacking Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.76      0.80       159
+           1       0.67      0.78      0.72        98
+
+    accuracy                           0.77       257
+   macro avg       0.76      0.77      0.76       257
+weighted avg       0.78      0.77      0.77       257
+
+2025-05-08 17:48:09 | INFO     | Stacking Confusion Matrix:
+[[121  38]
+ [ 22  76]]
+2025-05-08 17:48:09 | SUCCESS  | Stacking ensemble saved successfully
+2025-05-08 17:51:54 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 17:51:54 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 17:51:54 | INFO     | Extracting feature importances for RandomForest
+2025-05-08 17:53:01 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 17:53:01 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 17:53:01 | INFO     | Extracting feature importances for RandomForest
+2025-05-08 17:54:52 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 17:54:52 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 17:54:52 | INFO     | Extracting feature importances for RandomForest
+2025-05-08 17:55:59 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 17:55:59 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 17:55:59 | INFO     | Extracting feature importances for RandomForest
+2025-05-08 17:55:59 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 17:55:59 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 17:55:59 | INFO     | Extracting feature importances for RandomForest
+2025-05-08 17:57:27 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 17:57:27 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 17:57:27 | INFO     | Extracting feature importances for RandomForest
+2025-05-08 17:59:25 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 17:59:25 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 17:59:25 | INFO     | Extracting feature importances for RandomForest
+2025-05-08 17:59:45 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 17:59:45 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 17:59:45 | INFO     | Extracting feature importances for RandomForest
+2025-05-08 18:00:42 | INFO     | Extracting feature importances for XGBoost
+2025-05-08 18:00:42 | INFO     | Extracting feature importances for LightGBM
+2025-05-08 18:00:42 | INFO     | Extracting feature importances for RandomForest

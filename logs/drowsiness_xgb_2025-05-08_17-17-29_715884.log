@@ -1,0 +1,240 @@
+2025-05-08 17:17:30 | SUCCESS  | Split Complete
+2025-05-08 17:17:30 | INFO     | Train IDs: 19, Val IDs: 4, Test IDs: 5
+2025-05-08 17:17:30 | INFO     | Train samples: 1904
+2025-05-08 17:17:30 | INFO     | Val samples: 539
+2025-05-08 17:17:30 | INFO     | Test samples: 706
+2025-05-08 17:17:30 | INFO     | Train batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 17:17:30 | INFO     | Train batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 17:17:30 | INFO     | Val batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 17:17:30 | INFO     | Test batch shape: torch.Size([32, 1, 56, 224])
+2025-05-08 17:17:37 | INFO     | Epoch 1/50
+2025-05-08 17:17:37 | INFO     | Train Loss: 3.0895, Val Loss: 0.6109
+2025-05-08 17:17:37 | INFO     | Train Acc: 0.5263, Val Acc: 0.7013
+2025-05-08 17:17:37 | SUCCESS  | Best model saved.
+2025-05-08 17:17:44 | INFO     | Epoch 2/50
+2025-05-08 17:17:44 | INFO     | Train Loss: 2.3108, Val Loss: 0.5919
+2025-05-08 17:17:44 | INFO     | Train Acc: 0.5473, Val Acc: 0.7217
+2025-05-08 17:17:44 | SUCCESS  | Best model saved.
+2025-05-08 17:17:50 | INFO     | Epoch 3/50
+2025-05-08 17:17:50 | INFO     | Train Loss: 2.0698, Val Loss: 0.5881
+2025-05-08 17:17:50 | INFO     | Train Acc: 0.5699, Val Acc: 0.6512
+2025-05-08 17:17:50 | SUCCESS  | Best model saved.
+2025-05-08 17:17:56 | INFO     | Epoch 4/50
+2025-05-08 17:17:56 | INFO     | Train Loss: 1.5496, Val Loss: 0.5522
+2025-05-08 17:17:56 | INFO     | Train Acc: 0.5861, Val Acc: 0.6679
+2025-05-08 17:17:56 | SUCCESS  | Best model saved.
+2025-05-08 17:18:03 | INFO     | Epoch 5/50
+2025-05-08 17:18:03 | INFO     | Train Loss: 1.5537, Val Loss: 0.5440
+2025-05-08 17:18:03 | INFO     | Train Acc: 0.5861, Val Acc: 0.6976
+2025-05-08 17:18:03 | SUCCESS  | Best model saved.
+2025-05-08 17:18:09 | INFO     | Epoch 6/50
+2025-05-08 17:18:09 | INFO     | Train Loss: 1.2619, Val Loss: 0.5362
+2025-05-08 17:18:09 | INFO     | Train Acc: 0.6218, Val Acc: 0.7328
+2025-05-08 17:18:09 | SUCCESS  | Best model saved.
+2025-05-08 17:18:15 | INFO     | Epoch 7/50
+2025-05-08 17:18:15 | INFO     | Train Loss: 1.3074, Val Loss: 0.5357
+2025-05-08 17:18:15 | INFO     | Train Acc: 0.6056, Val Acc: 0.7254
+2025-05-08 17:18:15 | SUCCESS  | Best model saved.
+2025-05-08 17:18:22 | INFO     | Epoch 8/50
+2025-05-08 17:18:22 | INFO     | Train Loss: 1.0314, Val Loss: 0.5251
+2025-05-08 17:18:22 | INFO     | Train Acc: 0.6639, Val Acc: 0.7143
+2025-05-08 17:18:22 | SUCCESS  | Best model saved.
+2025-05-08 17:18:28 | INFO     | Epoch 9/50
+2025-05-08 17:18:28 | INFO     | Train Loss: 0.9612, Val Loss: 0.5136
+2025-05-08 17:18:28 | INFO     | Train Acc: 0.6796, Val Acc: 0.7199
+2025-05-08 17:18:28 | SUCCESS  | Best model saved.
+2025-05-08 17:18:35 | INFO     | Epoch 10/50
+2025-05-08 17:18:35 | INFO     | Train Loss: 0.9626, Val Loss: 0.5466
+2025-05-08 17:18:35 | INFO     | Train Acc: 0.6864, Val Acc: 0.6976
+2025-05-08 17:18:41 | INFO     | Epoch 11/50
+2025-05-08 17:18:41 | INFO     | Train Loss: 0.8736, Val Loss: 0.4928
+2025-05-08 17:18:41 | INFO     | Train Acc: 0.6780, Val Acc: 0.7347
+2025-05-08 17:18:41 | SUCCESS  | Best model saved.
+2025-05-08 17:18:48 | INFO     | Epoch 12/50
+2025-05-08 17:18:48 | INFO     | Train Loss: 0.8480, Val Loss: 0.4711
+2025-05-08 17:18:48 | INFO     | Train Acc: 0.7090, Val Acc: 0.7421
+2025-05-08 17:18:48 | SUCCESS  | Best model saved.
+2025-05-08 17:18:54 | INFO     | Epoch 13/50
+2025-05-08 17:18:54 | INFO     | Train Loss: 0.8466, Val Loss: 0.4992
+2025-05-08 17:18:54 | INFO     | Train Acc: 0.7054, Val Acc: 0.6994
+2025-05-08 17:19:00 | INFO     | Epoch 14/50
+2025-05-08 17:19:00 | INFO     | Train Loss: 0.7235, Val Loss: 0.4235
+2025-05-08 17:19:00 | INFO     | Train Acc: 0.7253, Val Acc: 0.7866
+2025-05-08 17:19:00 | SUCCESS  | Best model saved.
+2025-05-08 17:19:06 | INFO     | Epoch 15/50
+2025-05-08 17:19:06 | INFO     | Train Loss: 0.6584, Val Loss: 0.4119
+2025-05-08 17:19:06 | INFO     | Train Acc: 0.7227, Val Acc: 0.8442
+2025-05-08 17:19:06 | SUCCESS  | Best model saved.
+2025-05-08 17:19:13 | INFO     | Epoch 16/50
+2025-05-08 17:19:13 | INFO     | Train Loss: 0.6617, Val Loss: 0.4542
+2025-05-08 17:19:13 | INFO     | Train Acc: 0.7495, Val Acc: 0.7199
+2025-05-08 17:19:19 | INFO     | Epoch 17/50
+2025-05-08 17:19:19 | INFO     | Train Loss: 0.6060, Val Loss: 0.4049
+2025-05-08 17:19:19 | INFO     | Train Acc: 0.7489, Val Acc: 0.8683
+2025-05-08 17:19:19 | SUCCESS  | Best model saved.
+2025-05-08 17:19:25 | INFO     | Epoch 18/50
+2025-05-08 17:19:25 | INFO     | Train Loss: 0.5677, Val Loss: 0.3699
+2025-05-08 17:19:25 | INFO     | Train Acc: 0.7668, Val Acc: 0.9017
+2025-05-08 17:19:25 | SUCCESS  | Best model saved.
+2025-05-08 17:19:31 | INFO     | Epoch 19/50
+2025-05-08 17:19:31 | INFO     | Train Loss: 0.5161, Val Loss: 0.3744
+2025-05-08 17:19:31 | INFO     | Train Acc: 0.7757, Val Acc: 0.8961
+2025-05-08 17:19:37 | INFO     | Epoch 20/50
+2025-05-08 17:19:37 | INFO     | Train Loss: 0.5117, Val Loss: 0.3569
+2025-05-08 17:19:37 | INFO     | Train Acc: 0.7836, Val Acc: 0.8998
+2025-05-08 17:19:37 | SUCCESS  | Best model saved.
+2025-05-08 17:19:43 | INFO     | Epoch 21/50
+2025-05-08 17:19:43 | INFO     | Train Loss: 0.4739, Val Loss: 0.3190
+2025-05-08 17:19:43 | INFO     | Train Acc: 0.8078, Val Acc: 0.9035
+2025-05-08 17:19:43 | SUCCESS  | Best model saved.
+2025-05-08 17:19:50 | INFO     | Epoch 22/50
+2025-05-08 17:19:50 | INFO     | Train Loss: 0.4584, Val Loss: 0.3250
+2025-05-08 17:19:50 | INFO     | Train Acc: 0.8093, Val Acc: 0.9035
+2025-05-08 17:19:56 | INFO     | Epoch 23/50
+2025-05-08 17:19:56 | INFO     | Train Loss: 0.4256, Val Loss: 0.2927
+2025-05-08 17:19:56 | INFO     | Train Acc: 0.8193, Val Acc: 0.9054
+2025-05-08 17:19:56 | SUCCESS  | Best model saved.
+2025-05-08 17:20:04 | INFO     | Epoch 24/50
+2025-05-08 17:20:04 | INFO     | Train Loss: 0.4270, Val Loss: 0.2897
+2025-05-08 17:20:04 | INFO     | Train Acc: 0.8151, Val Acc: 0.9054
+2025-05-08 17:20:04 | SUCCESS  | Best model saved.
+2025-05-08 17:20:13 | INFO     | Epoch 25/50
+2025-05-08 17:20:13 | INFO     | Train Loss: 0.4163, Val Loss: 0.2666
+2025-05-08 17:20:13 | INFO     | Train Acc: 0.8220, Val Acc: 0.9054
+2025-05-08 17:20:13 | SUCCESS  | Best model saved.
+2025-05-08 17:20:20 | INFO     | Epoch 26/50
+2025-05-08 17:20:20 | INFO     | Train Loss: 0.4098, Val Loss: 0.2588
+2025-05-08 17:20:20 | INFO     | Train Acc: 0.8256, Val Acc: 0.9035
+2025-05-08 17:20:20 | SUCCESS  | Best model saved.
+2025-05-08 17:20:27 | INFO     | Epoch 27/50
+2025-05-08 17:20:27 | INFO     | Train Loss: 0.3620, Val Loss: 0.2561
+2025-05-08 17:20:27 | INFO     | Train Acc: 0.8382, Val Acc: 0.9035
+2025-05-08 17:20:27 | SUCCESS  | Best model saved.
+2025-05-08 17:20:34 | INFO     | Epoch 28/50
+2025-05-08 17:20:34 | INFO     | Train Loss: 0.3713, Val Loss: 0.2410
+2025-05-08 17:20:34 | INFO     | Train Acc: 0.8440, Val Acc: 0.9035
+2025-05-08 17:20:34 | SUCCESS  | Best model saved.
+2025-05-08 17:20:41 | INFO     | Epoch 29/50
+2025-05-08 17:20:41 | INFO     | Train Loss: 0.3624, Val Loss: 0.2351
+2025-05-08 17:20:41 | INFO     | Train Acc: 0.8377, Val Acc: 0.9017
+2025-05-08 17:20:41 | SUCCESS  | Best model saved.
+2025-05-08 17:20:47 | INFO     | Epoch 30/50
+2025-05-08 17:20:47 | INFO     | Train Loss: 0.3779, Val Loss: 0.2258
+2025-05-08 17:20:47 | INFO     | Train Acc: 0.8398, Val Acc: 0.9035
+2025-05-08 17:20:47 | SUCCESS  | Best model saved.
+2025-05-08 17:20:54 | INFO     | Epoch 31/50
+2025-05-08 17:20:54 | INFO     | Train Loss: 0.3506, Val Loss: 0.2199
+2025-05-08 17:20:54 | INFO     | Train Acc: 0.8603, Val Acc: 0.9054
+2025-05-08 17:20:54 | SUCCESS  | Best model saved.
+2025-05-08 17:21:00 | INFO     | Epoch 32/50
+2025-05-08 17:21:00 | INFO     | Train Loss: 0.3149, Val Loss: 0.2434
+2025-05-08 17:21:00 | INFO     | Train Acc: 0.8608, Val Acc: 0.9035
+2025-05-08 17:21:07 | INFO     | Epoch 33/50
+2025-05-08 17:21:07 | INFO     | Train Loss: 0.3212, Val Loss: 0.2340
+2025-05-08 17:21:07 | INFO     | Train Acc: 0.8519, Val Acc: 0.8998
+2025-05-08 17:21:15 | INFO     | Epoch 34/50
+2025-05-08 17:21:15 | INFO     | Train Loss: 0.3289, Val Loss: 0.2367
+2025-05-08 17:21:15 | INFO     | Train Acc: 0.8545, Val Acc: 0.9017
+2025-05-08 17:21:22 | INFO     | Epoch 35/50
+2025-05-08 17:21:22 | INFO     | Train Loss: 0.3096, Val Loss: 0.2430
+2025-05-08 17:21:22 | INFO     | Train Acc: 0.8708, Val Acc: 0.8924
+2025-05-08 17:21:28 | INFO     | Epoch 36/50
+2025-05-08 17:21:28 | INFO     | Train Loss: 0.3337, Val Loss: 0.2414
+2025-05-08 17:21:28 | INFO     | Train Acc: 0.8682, Val Acc: 0.8905
+2025-05-08 17:21:35 | INFO     | Epoch 37/50
+2025-05-08 17:21:35 | INFO     | Train Loss: 0.2710, Val Loss: 0.2055
+2025-05-08 17:21:35 | INFO     | Train Acc: 0.8818, Val Acc: 0.9054
+2025-05-08 17:21:35 | SUCCESS  | Best model saved.
+2025-05-08 17:21:41 | INFO     | Epoch 38/50
+2025-05-08 17:21:41 | INFO     | Train Loss: 0.3130, Val Loss: 0.2180
+2025-05-08 17:21:41 | INFO     | Train Acc: 0.8745, Val Acc: 0.9054
+2025-05-08 17:21:47 | INFO     | Epoch 39/50
+2025-05-08 17:21:47 | INFO     | Train Loss: 0.2600, Val Loss: 0.1935
+2025-05-08 17:21:47 | INFO     | Train Acc: 0.8918, Val Acc: 0.9109
+2025-05-08 17:21:47 | SUCCESS  | Best model saved.
+2025-05-08 17:21:54 | INFO     | Epoch 40/50
+2025-05-08 17:21:54 | INFO     | Train Loss: 0.2639, Val Loss: 0.2239
+2025-05-08 17:21:54 | INFO     | Train Acc: 0.8824, Val Acc: 0.8980
+2025-05-08 17:22:01 | INFO     | Epoch 41/50
+2025-05-08 17:22:01 | INFO     | Train Loss: 0.2604, Val Loss: 0.2030
+2025-05-08 17:22:01 | INFO     | Train Acc: 0.8971, Val Acc: 0.9054
+2025-05-08 17:22:07 | INFO     | Epoch 42/50
+2025-05-08 17:22:07 | INFO     | Train Loss: 0.2427, Val Loss: 0.2136
+2025-05-08 17:22:07 | INFO     | Train Acc: 0.9065, Val Acc: 0.9035
+2025-05-08 17:22:14 | INFO     | Epoch 43/50
+2025-05-08 17:22:14 | INFO     | Train Loss: 0.2492, Val Loss: 0.1962
+2025-05-08 17:22:14 | INFO     | Train Acc: 0.8992, Val Acc: 0.9091
+2025-05-08 17:22:22 | INFO     | Epoch 44/50
+2025-05-08 17:22:22 | INFO     | Train Loss: 0.2545, Val Loss: 0.2132
+2025-05-08 17:22:22 | INFO     | Train Acc: 0.8950, Val Acc: 0.8998
+2025-05-08 17:22:30 | INFO     | Epoch 45/50
+2025-05-08 17:22:30 | INFO     | Train Loss: 0.2303, Val Loss: 0.1975
+2025-05-08 17:22:30 | INFO     | Train Acc: 0.9044, Val Acc: 0.9091
+2025-05-08 17:22:38 | INFO     | Epoch 46/50
+2025-05-08 17:22:38 | INFO     | Train Loss: 0.2203, Val Loss: 0.2118
+2025-05-08 17:22:38 | INFO     | Train Acc: 0.9039, Val Acc: 0.9072
+2025-05-08 17:22:46 | INFO     | Epoch 47/50
+2025-05-08 17:22:46 | INFO     | Train Loss: 0.2117, Val Loss: 0.1953
+2025-05-08 17:22:46 | INFO     | Train Acc: 0.9149, Val Acc: 0.9109
+2025-05-08 17:22:52 | INFO     | Epoch 48/50
+2025-05-08 17:22:52 | INFO     | Train Loss: 0.2161, Val Loss: 0.1957
+2025-05-08 17:22:52 | INFO     | Train Acc: 0.9081, Val Acc: 0.9091
+2025-05-08 17:22:59 | INFO     | Epoch 49/50
+2025-05-08 17:22:59 | INFO     | Train Loss: 0.2007, Val Loss: 0.1962
+2025-05-08 17:22:59 | INFO     | Train Acc: 0.9165, Val Acc: 0.9091
+2025-05-08 17:22:59 | WARNING  | Early stopping triggered.
+2025-05-08 17:24:16 | SUCCESS  | Final model saved to ../outputs/models/deep_ml/TJM3_FINAL_20250508_172416.pt
+2025-05-08 17:25:54 | SUCCESS  | Training history saved to ./csvs/cnn_training/training_history_20250508_172416.csv
+2025-05-08 17:26:22 | SUCCESS  | Training history saved to ../csvs/cnn_training/training_history_20250508_172416.csv
+2025-05-08 17:26:39 | INFO     | Test Accuracy: 0.9745
+2025-05-08 17:26:39 | INFO     | Test Precision: 0.9453
+2025-05-08 17:26:39 | INFO     | Test Recall: 1.0000
+2025-05-08 17:26:39 | INFO     | Test F1 Score: 0.9719
+2025-05-08 17:26:39 | INFO     | 
+Classification Report:
+2025-05-08 17:26:39 | INFO     | 
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98       395
+           1       0.95      1.00      0.97       311
+
+    accuracy                           0.97       706
+   macro avg       0.97      0.98      0.97       706
+weighted avg       0.98      0.97      0.97       706
+
+2025-05-08 17:26:39 | INFO     | 
+Confusion Matrix:
+2025-05-08 17:26:39 | INFO     | 
+[[377  18]
+ [  0 311]]
+2025-05-08 17:27:10 | INFO     | 
+Some individual test predictions:
+
+2025-05-08 17:27:10 | INFO     | ZB0054.png                     true=0 pred=0 prob=0.000
+2025-05-08 17:27:10 | INFO     | v0284.png                      true=1 pred=1 prob=0.986
+2025-05-08 17:27:10 | INFO     | X1086.png                      true=0 pred=0 prob=0.003
+2025-05-08 17:27:10 | INFO     | X0956.png                      true=0 pred=0 prob=0.000
+2025-05-08 17:27:10 | INFO     | X0551.png                      true=0 pred=0 prob=0.002
+2025-05-08 18:21:41 | INFO     | Training progress plot saved to ../outputs/utils/deep_ml/training_progress_20250508_172416.png
+2025-05-08 18:22:52 | INFO     | ROC AUC curve plot saved to ../outputs/utils/deep_ml/roc_auc_curve_20250508_172416.png
+2025-05-08 18:22:52 | INFO     | ROC AUC Score: 0.9963
+2025-05-08 18:23:51 | INFO     | Confusion matrix plot saved to ../outputs/utils/deep_ml/confusion_matrix_test_20250508_172416.png
+2025-05-08 18:24:18 | INFO     | Confusion matrix plot saved to ../outputs/utils/deep_ml/confusion_matrix_test_20250508_172416.png
+2025-05-08 18:26:59 | INFO     | Saving Grad-CAM images to: ../outputs/utils/deep_ml/grad_cam_20250508_172416
+2025-05-08 18:26:59 | INFO     | Saved: ../outputs/utils/deep_ml/grad_cam_20250508_172416/grad_cam_sample_0_v0951.png
+2025-05-08 18:26:59 | INFO     | Saved: ../outputs/utils/deep_ml/grad_cam_20250508_172416/grad_cam_sample_1_ZB1543.png
+2025-05-08 18:26:59 | INFO     | Saved: ../outputs/utils/deep_ml/grad_cam_20250508_172416/grad_cam_sample_2_v0799.png
+2025-05-08 18:47:26 | INFO     | Train samples: 1904
+2025-05-08 18:47:26 | INFO     | Val samples: 539
+2025-05-08 18:47:26 | INFO     | Test samples: 706
+2025-05-08 18:49:23 | INFO     | Train samples: 1904
+2025-05-08 18:49:23 | INFO     | Val samples: 539
+2025-05-08 18:49:23 | INFO     | Test samples: 706
+2025-05-08 18:49:42 | INFO     | Train samples: 1904
+2025-05-08 18:49:42 | INFO     | Val samples: 539
+2025-05-08 18:49:42 | INFO     | Test samples: 706
+2025-05-08 18:49:43 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
+2025-05-08 18:50:20 | INFO     | Train samples: 1904
+2025-05-08 18:50:20 | INFO     | Val samples: 539
+2025-05-08 18:50:20 | INFO     | Test samples: 706
+2025-05-08 18:50:21 | INFO     | Train batch shape: torch.Size([32, 3, 56, 224])
